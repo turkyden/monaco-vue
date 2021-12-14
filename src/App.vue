@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-500 to-blue-300" id="app">
+  <div id="app" class="w-screen h-screen flex flex-col justify-center items-center bg-gradient-to-br from-green-800 to-green-300">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <h2 class="text-6xl text-white text-shadow pb-20 font-bold">Monaco Vue</h2>
     <Editor
