@@ -2,12 +2,20 @@
   "name": "@monaco-editor/vue",
   "version": "0.1.0",
   "private": true,
+  "authors": [
+    {
+      "name": "turkyden",
+      "email": "wj871287@gmail.com"
+    }
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name monaco-vue --entry src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/monaco-vue.umd.js",
+  "module": "dist/monaco-vue.common.js",
   "dependencies": {
     "@monaco-editor/loader": "^1.2.0",
     "core-js": "^3.6.5",
